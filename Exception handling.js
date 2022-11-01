@@ -8,3 +8,13 @@ try {
 catch (err) {
     console.error(err)
 }
+
+
+try {
+    if(1/0 == 'Infinity'){
+        throw 'cannot be divided by zero';
+    }
+}
+catch (err) {
+    console.error(err)
+}
